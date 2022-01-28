@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2");
+
+#about-us {
+  width: 100vw;
+  background: url("https://i.ibb.co/SRyGbhG/lokitransitiondark1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  overflow-x: hidden;
+  padding-bottom: 10%;
+  height: auto;
+}
+
+.heading {
+  width: 100%;
+  align-items: center;
+  margin: 0;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+}
+.image-l{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
+.about_title {
+  color: #d0d0d0;
+  font-family: "Mechanismo", sans-serif;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.mlsc_logo {
+  width: 12rem;
+  text-align: center;
+}
+
+.about_text {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 1.7rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+.about_betterbox {
+  width: 93%;
+  height: fit-content;
+  background: linear-gradient(
+    134.37deg,
+    rgba(255, 255, 255, 0.3) 25.27%,
+    rgba(255, 255, 255, 0.15) 101.47%
+  );
+  box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 26px;
+  margin-top: 1rem;
+  margin-left: 1%;
+  margin-right: 6%;
+}
+@media only screen and (max-width:1240px){
+  .image-l{
+    display: none;
+  }
+  .betterbox{
+    display: flex;
+    justify-content: center;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+  }
+}
+@media only screen and (max-width:2500px){
+ .about_text{
+   font-size: 180%;
+ } 
+}
+@media only screen and (max-width:720px){
+ .about_text{
+   font-size: 120%;
+ } 
+ .about_title{
+   font-size: 3rem;
+ }
+}
+@media only screen and (max-width:550px){
+ .about_text{
+   font-size: 100%;
+ } 
+ .about_title{
+   font-size: 3rem;
+ }
+}
+@media only screen and (min-width:1272px){
+  .about_text{
+    font-size: 160%;
+  }
+}
+@media only screen and (min-width:1462px){
+  .about_text{
+    font-size: 180%;
+  }
+}
+@media only screen and (min-width:1864px){
+  .about_text{
+    font-size: 200%;
+  }
+}
+@media only screen and (min-width:2078px){
+  .about_text{
+    font-size: 220%;
+  }
+}

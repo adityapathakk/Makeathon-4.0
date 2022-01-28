@@ -23,17 +23,13 @@ It's a good idea to gauge interest in your intended work by finding the current 
 
 - First things first, fork the MAKEATHON [repository](https://github.com/MicrosoftStudentChapter/Makeathon-4.0) into your own GitHub account, and create a local clone of your own fork. Follow the steps mentioned below:<br>
   `git clone`<br>
-<<<<<<< HEAD
-- Open this local repository on your personal computer and start implementing.
-- It is mandatory to fork the repository and you need to commit all your changes in the fork repository before making pull request.
-- It is also mandatory to create a branch in your forked repository before making pull request. 
- <br>
- For e.g `git checkout -b #SectionName_branch`
- <br>
-=======
-- Open this local repository on your personal computer and start making changes.
+- Open this local repository on your local machinery and start implementing.
 - It is mandatory to fork the repository and you need to commit all your changes in the forked repository before making pull request.
->>>>>>> 30b9a106cd938dc2e2097ec09cc9122c6080f351
+- It is also mandatory to create a branch in your forked repository before making pull request. <br>
+ For e.g <br>
+ `git checkout -b SectionName_branch`
+ <br>
+ <br>
 
 2. #### The Second Step
 
@@ -42,9 +38,7 @@ It's a good idea to gauge interest in your intended work by finding the current 
 
 3. #### The Third Step
 
-- Create a directory in your fork with the convention:<br>For example:  `mkdir About_Us` <br>
-- Name your directory as per the section you are working on.<br>
-- Now enter the directory in which you are supposed to work using the command:<br> 
+- Enter the directory in which you want to make the changes:<br> 
 `cd directory_name` <br>
 - Now make all the necessary changes in your own directory.<br>
 - Once all the changes have been made, generate a pull request(PR) and add at least one of the Maintainers as a Reviewer for the same.
